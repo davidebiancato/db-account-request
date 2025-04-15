@@ -30,5 +30,5 @@ module "management" {
   custom_fields = {
   }
 
-  account_customizations_name = "management"
+  account_customizations_name = "aws-20250415"
 }

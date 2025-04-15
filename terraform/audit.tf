@@ -6,7 +6,7 @@ module "audit" {
 
   control_tower_parameters = {
     AccountEmail = "aws.20250415+audit@gmail.com"
-    AccountName  = "audit"
+    AccountName  = "Audit"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU
@@ -30,5 +30,5 @@ module "audit" {
   custom_fields = {
   }
 
-  account_customizations_name = "audit"
+  account_customizations_name = "Audit"
 }

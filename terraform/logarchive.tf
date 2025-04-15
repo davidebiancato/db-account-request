@@ -6,7 +6,7 @@ module "logarchive" {
 
   control_tower_parameters = {
     AccountEmail = "aws.20250415+logarchive@gmail.com"
-    AccountName  = "logarchive"
+    AccountName  = "Log Archive"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU
@@ -30,5 +30,5 @@ module "logarchive" {
   custom_fields = {
   }
 
-  account_customizations_name = "logarchive"
+  account_customizations_name = "Log Archive"
 }
