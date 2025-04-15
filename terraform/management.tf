@@ -6,9 +6,9 @@ module "management" {
 
   control_tower_parameters = {
     AccountEmail = "davide.biancato@horsa.it"
-    AccountName  = "management"
+    AccountName  = "aws-20250415"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "root"
+    ManagedOrganizationalUnit = "Root"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "davide.biancato@horsa.it"
