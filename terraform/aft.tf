@@ -30,5 +30,5 @@ module "aft" {
   custom_fields = {
   }
 
-  account_customizations_name = "AFT"
+  account_customizations_name = "AFT Account"
 }
